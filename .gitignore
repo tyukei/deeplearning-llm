@@ -1,0 +1,18 @@
+# uv / venv
+.venv/
+__pycache__/
+*.pyc
+
+# marimo
+__marimo__/
+
+# 学習の生成物（再生成可能なので追跡しない）
+*.pt
+*.png
+data/*.bin
+data/*.pkl
+codebot/model_*.pt
+codebot/tiny_codes.bin
+
+# OS
+.DS_Store
